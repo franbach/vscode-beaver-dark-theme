@@ -1,0 +1,21 @@
+{
+    "name": "beaver dark",
+    "displayName": "beaver dark chalk",
+    "description": "beaver dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "beaver dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/beaver_dark.json"
+            }
+        ]
+    }
+}
