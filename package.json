@@ -1,6 +1,7 @@
 {
-    "name": "beaver dark",
+    "name": "beaver-dark",
     "displayName": "beaver dark chalk",
+    "publisher": "FranciscoBach",
     "description": "beaver dark theme",
     "version": "0.0.1",
     "engines": {
@@ -18,4 +19,43 @@
             }
         ]
     }
+}
+
+{
+	"name": "beaver-dark",
+	"displayName": "beaver dark chalk",
+	"description": "Unique color grade!",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.39.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Beaver Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/beaver_dark.json"
+			}
+		]
+	},
+	"publisher": "FranciscoBach",
+	"author": {
+		"name": "Francisco Bach"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "GitHub",
+		"url": "https://github.com/franbach/vscode-beaver-dark-theme.git"
+	},
+	"icon": "beaver-theme-icon.png",
+	"keywords": [
+		"beaver",
+		"beaver theme",
+		"dark theme",
+		"dark",
+		"theme"
+	]
 }
